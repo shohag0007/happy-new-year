@@ -83,8 +83,10 @@ body {
 
 }
 
-.mid-night{
-    padding: 30px;
+.mid-night {
+    padding: 40px;
+    margin-top: 30px;
+
 }
 
 
@@ -99,7 +101,7 @@ body {
     color: #FFF;
 
     font-family: Merriweather;
-    font-size: 34px;
+    font-size: 20px;
     display: flex;
     align-items: left;
     margin: auto;
@@ -114,7 +116,7 @@ body {
 .linear {
 
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-  margin-top: 50px;
+    margin-top: 50px;
     height: 482px;
 
     padding: 10%;
@@ -139,16 +141,16 @@ body {
     padding: 20px;
 }
 
-.offer-section{
+.offer-section {
     display: flex;
-    
+
     justify-content: center;
     align-items: center;
 
 
 }
 
-.new-2024{
+.new-2024 {
     padding: 20px;
 }
 
@@ -162,57 +164,97 @@ body {
     color: red;
 }
 
-.sale{
+.sale {
     display: flex;
     text-align: center;
 }
 
 
-.lady{
-    
+.lady {}
+
+
+.lady-pic {
+    width: 100px;
+   margin-top: 100px;
 
 }
 
-
-.lady-pic{
-width: 200px;
-
-}
-
-.size{
+.size {
     width: 1600px;
 }
 
 
-.portfolio-pic{
-    
- 
+.portfolio-pic {
+
+
     justify-items: center;
     align-items: center;
+
+
+}
+
+.portfolio-pic img {
+    width: 330px;
    
+    padding-left: 40px;
+}
    
-}
-
-.portfolio-pic img{
-    width: 200px;
-}
 
 
-.mail{
-    background:rgba(255, 0, 0, 0.05);
-    display: flex;
-    justify-content: center;
-    align-item: center;
-    
-}
-
-.width{
-
-    width: 1320px;
-}
 
 
-.news {
-text-align: center;
 
-}
+
+    .portfolio-pic1 {}
+
+
+
+
+ .subscribe{ 
+    background: rgba(255, 0, 0, 0.05);
+ }
+
+
+
+    .mail {
+       
+        display: flex;
+        justify-content: center;
+        align-item: center;
+
+    }
+
+    .width {
+
+        width: 1320px;
+    }
+
+
+    .news {
+        text-align: center;
+        justify-content: center;
+
+    }
+
+
+    .btn{
+        background-color:#F00;
+    }
+
+
+
+    .footer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #070211;
+
+    }
+
+
+    .foot-image img{
+     
+        align-items: center;
+        justify-content: center;
+
+    }
